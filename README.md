@@ -1,1 +1,2 @@
-# Car-Racing-GameOrig
+# synchronousBallMovement
+Ball moving synchronously
