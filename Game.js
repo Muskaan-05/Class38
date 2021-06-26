@@ -29,4 +29,13 @@ class Game{
         }
     }
 
+    play(){
+        form.hide();
+        textSize(5);
+        text ("Game Start", 130,50);
+        if(keyDown("UP")){
+            player.distance=player.distance+50;
+            player.update();
+        }
+    }
 }
