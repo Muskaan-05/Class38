@@ -7,13 +7,13 @@ class Form{
     display(){
         var title=createElement("h3");
         title.html("Car Racing Game");
-        title.position(130,100);
+        title.position(displayWidth/4+5, displayHeight/5);
 
         
-        this.input.position(130,150);
+        this.input.position(displayWidth/4+5,displayHeight/4+25);
 
         
-        this.button.position(130,250);
+        this.button.position(displayWidth/4+5,displayHeight/2);
 
         this.button.mousePressed(()=>{
             this.input.hide();
@@ -28,7 +28,7 @@ class Form{
            
             
             this.greeting.html("Hello "+ player.name);
-            this.greeting.position(130,200);
+            this.greeting.position(displayWidth/4+5,displayHeight/2-25);
         })
 
     }
